@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>canvas test</title>
+      <link rel="stylesheet" href="/stylesheets/style.css">
+   </head>
+
+   <body>
+      <canvas id="canvas"></canvas>
+      <div class="controls">
+         <button id="playBtn">pause</button>
+         <span id="collider">
+            collider enabled
+            <input type="checkbox" checked>
+         </span>
+         <span>active particles: <span id="active"></span></span>
+         <select id="select"" name="select">
+            <option value="10000" selected>10000</option>
+            <option value="50000">50000</option>
+            <option value="100000">100000</option>
+         </select>
+      </div>
+   </body>
+   <script type="module" src="javascripts/index.js"></script>
+
+</html>
